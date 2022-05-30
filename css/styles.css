@@ -373,7 +373,7 @@ input[type="checkbox"] {
 /*     Navigation     */
 /**********************/
 .navbar {
-  background-color: #24262a;
+  background-color: rgb(143, 77, 61);
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -522,8 +522,8 @@ input[type="checkbox"] {
 .header {
   padding-top: 7rem;
   padding-bottom: 5.5rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../images/portrait.jpg") center center no-repeat;
+  background: linear-gradient(rgba(141, 136, 133, 0.5), rgba(143, 77, 61, 0.5)),
+    url("../images/White\ and\ Green\ Minimalist\ Elegant\ Beauty\ Salon\ Banner.png") center center no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -553,6 +553,17 @@ input[type="checkbox"] {
 .header .btn-outline-lg .fas {
   margin-right: 0.375rem;
 }
+
+.row {
+  justify-content: center;
+}
+
+.portrait{
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #cbcbd1;
+}
+
 
 /*****************/
 /*     About     */
@@ -990,7 +1001,7 @@ a:hover.back-to-top {
 @media (min-width: 768px) {
   /* Header */
   .header {
-    padding-top: 11rem;
+    padding-top: 10rem;
     padding-bottom: 9rem;
   }
   /* end of header */
@@ -1021,6 +1032,7 @@ a:hover.back-to-top {
 .icons:hover {
   font-size: 1.5rem;
 }
+/* media queries */
 @media (min-width: 992px) {
   /* General Styles */
   .h2-heading {
@@ -1039,7 +1051,7 @@ a:hover.back-to-top {
   /* Navigation */
   .navbar {
     padding-top: 1.75rem;
-    background-color: transparent;
+    /* background-color: transparent; delete later */
     box-shadow: none;
     transition: all 0.2s;
   }
@@ -1102,7 +1114,7 @@ a:hover.back-to-top {
   .header {
     padding-top: 15rem;
     padding-bottom: 14rem;
-    text-align: left;
+    text-align: center;
   }
   /* end of header */
 
@@ -1208,8 +1220,8 @@ a:hover.back-to-top {
 
   /* Header */
   .header {
-    padding-top: 18.25rem;
-    padding-bottom: 17.25rem;
+    /* padding-top: 18.25rem; */
+    /* padding-bottom: 17.25rem; */
   }
   /* end of header */
 

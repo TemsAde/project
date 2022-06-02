@@ -18,7 +18,7 @@
         <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
     
         <!-- Webpage Title -->
-        <title>Mark Webpage Title</title>
+        <title>TEMZADE</title>
         
         <!-- Styles -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,7 +28,7 @@
         <link href="css/styles.css" rel="stylesheet">
         
         <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png">
+        <link rel="icon" href="images/TEMz favicon.png">
     </head>
     <body data-spy="scroll" data-target=".fixed-top">
         
@@ -37,10 +37,10 @@
             <div class="container">
                 
                 <!-- Image Logo -->
-                <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  
+                <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>   -->
     
                 <!-- Text Logo - Use this if you don't have a graphic logo -->
-                <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
+                <a class="navbar-brand logo-text page-scroll" href="index.html">TEMZADE</a>
     
                 <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                     <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@
                 <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link page-scroll" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="about.html">About</a>
@@ -57,18 +57,8 @@
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="services.html">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                            </div>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#contact">Contact</a>
+                            <a class="nav-link page-scroll" href="contact.html">Contact</a>
                         </li>
                     </ul>
                     <span class="nav-item social-icons">
@@ -79,7 +69,7 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.twitter.com/taymee_xx">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
@@ -97,12 +87,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Contact details</h2>
-                    <p class="p-heading">For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email <a class="blue no-line" href="#your-link">contact@domain.com</a></p>
+                    <h2>How may I be of help?</h2>
+                    <p class="p-heading">You may forward any inquiry to <a class="blue no-line" href="mailto: #">info@temzade.com</a>, or fill out the form below.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-sm-12">
                     
                     <!-- Contact Form -->
                     <form id="contactForm">
@@ -116,13 +106,26 @@
                         </div>
                         <div class="form-group">
                             <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Project details</label>
+                            <label class="label-control" for="cmessage">Message</label>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Submit</button>
+                            <button class="btn send-button" id="submit" type="submit" value="SEND">
+                                <div class="alt-send-button">
+                                  <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                                </div>
+                            </button>
                         </div>
                     </form>
                     <!-- end of contact form -->
+
+                    <div class="direct-contact-container">
+
+                        <ul class="contact-list">
+                          <li class="list-item"><i class="fa fa-map-marker"><span class="contact-text place">Lagos, Nigeria</span></i></li>
+                          
+                          <li class="list-item"><i class="fa fa-phone"><span class="contact-text phone"><a href="tel:+2347034591925" title="Give me a call" class="contact-text">+234-803-459-1925</a></span></i></li>
+                        </ul>
+                    </div>
 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

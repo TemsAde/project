@@ -577,6 +577,14 @@ input[type="checkbox"] {
   margin-bottom: 3rem;
 }
 
+.media-container{
+  padding: 3rem;
+}
+
+.logoA {
+border-radius: 50%;
+}
+
 .basic-1 .time {
   margin-bottom: 0.5rem;
   color: #0b36a8;
@@ -594,10 +602,16 @@ input[type="checkbox"] {
 /*     Services     */
 /********************/
 .basic-2 {
-  padding-top: 7.75rem;
+  padding-top: 2.75rem;
   padding-bottom: 5.25rem;
+  background: rgba(143, 77, 61, 0.7);
+  
 }
-
+.title-box{
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(rgba(143,77,61,0.5), rgba(143, 77, 61, 0.5)),url(../images/Capture\ services.PNG);
+}
 .basic-2 .h2-heading {
   margin-bottom: 0.75rem;
   text-align: center;
@@ -607,22 +621,31 @@ input[type="checkbox"] {
   margin-bottom: 4rem;
   text-align: center;
 }
-
+.text-box p:hover {
+  color: #E2F4FF;
+}
 .basic-2 .text-box {
   margin-bottom: 3rem;
   padding: 3.5rem 1rem 2.125rem 1rem;
-  border: 1px solid #cfd7de;
+  border: 2px solid rgb(143, 77, 61);
+  border-radius: 20%;
 }
 
 .basic-2 .fas,
 .basic-2 .far {
   margin-bottom: 1.75rem;
-  color: #0b36a8;
+  color: rgb(143, 77, 61);
   font-size: 3.5rem;
 }
 
 .basic-2 h4 {
   letter-spacing: 1px;
+}
+
+.col-lg-4 .text-box:hover{
+  background-color: rgb(102, 70, 62);
+  text-transform:uppercase;
+
 }
 
 /*******************/

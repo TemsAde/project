@@ -598,6 +598,10 @@ border-radius: 50%;
   margin-bottom: 0.125rem;
 }
 
+.mc2{
+  visibility: collapse;
+}
+
 /********************/
 /*     Services     */
 /********************/
@@ -1011,6 +1015,12 @@ a:hover.back-to-top {
   }
   /* end of header */
 
+   /* About */
+   .mc2{
+    visibility:visible;
+  }
+  /* End */
+
   /* Services */
   .basic-2 .text-box {
     padding-right: 2.125rem;
@@ -1232,6 +1242,7 @@ a:hover.back-to-top {
   .basic-1 .text-container.third {
     margin-left: 2rem;
   }
+  
   /* end of about */
 
   /* Details */
